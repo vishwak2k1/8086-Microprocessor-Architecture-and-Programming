@@ -1,0 +1,12 @@
+;Perform addition operation using various addressing modes
+
+MOV AL, 04H
+ADD AL, 05H; Immediate Addressing
+
+MOV BL, 05H
+ADD AL, BL ; Register Addressing
+
+ADD AL, [1000H] ; Direct Addressing - Memory address is stored in the instruction
+
+MOV BX, 1000H;
+ADD AX, [BX] ; Indirect Addressing -  Memory address is stored in a Register
