@@ -3,3 +3,13 @@ MOV AL, 0BH;  00001011B
 MOV BL, AL
 SHR BL, 1
 XOR AL, BL; output in AL register
+
+;Examples:
+
+;Binary : 0011
+;Gray   : 0010
+
+;Binary : 01001
+;Gray   : 01101
+
+;You have to keep in mind the length of the register being used ( either 8-bit or 16-bit )
