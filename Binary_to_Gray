@@ -1,0 +1,5 @@
+; BINARY TO GRAY
+MOV AL, 0BH;  00001011B
+MOV BL, AL
+SHR BL, 1
+XOR AL, BL; output in AL register
