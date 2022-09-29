@@ -8,7 +8,7 @@
 ;    Parity Flag (P)
 ;    Carry Flag (CY)
 ;    Overflow Flag (O)
-
+ 
 ; ADD 127 + 1 = 128 ( NOT REPRESENTABLE IN 8-BITS) OVERFLOW HAPPENS
 ; 
 
