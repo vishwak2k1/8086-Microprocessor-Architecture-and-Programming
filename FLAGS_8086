@@ -1,0 +1,21 @@
+; FLAG register capture the status after any ALU operations
+; FLAGS are not affected by data-transfer operations
+; There are total 9 flags in 8086 and the flag register is divided into two types:
+;(a) Status Flags
+;    Sign Flag (S)
+;    Zero Flag (Z)
+;    Auxiliary Cary Flag (AC)
+;    Parity Flag (P)
+;    Carry Flag (CY)
+;    Overflow Flag (O)
+
+; ADD 127 + 1 = 128 ( NOT REPRESENTABLE IN 8-BITS) OVERFLOW HAPPENS
+; 
+
+
+
+
+;(b) Control Flags
+;    Directional Flag (D)
+;    Interrupt Flag (I) 
+;    Trap Flag (T)
